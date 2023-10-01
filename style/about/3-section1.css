@@ -1,0 +1,49 @@
+table, tr, td {
+    border: 1px solid #BDBDBD;
+    border-collapse: collapse;
+    padding: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+} 
+
+div.container1 {
+    position: relative;
+    top: -350px;
+}
+
+div.container {
+    display: flex;
+    gap: 25px;
+}
+
+.container div.img  {
+    flex-grow: 3;
+}
+
+
+.container .table {
+    flex-grow: 1;
+    background-color: white;
+}
+
+
+
+@media (max-width:992px) {
+    div.container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: center;
+        
+    }
+    
+}
+
+td span {
+    font-weight: bold;
+}
+
+.full {
+    width: 100%;
+    height: 400px;
+    background-color: #F0F4F9;
+}

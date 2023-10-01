@@ -1,0 +1,136 @@
+main {
+    background-color: #F0F4F9;
+    padding-bottom: 110px;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    color: #002147;
+    padding: 30px 0px;
+}
+
+@media (max-width:992px) {
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        justify-items: center;
+        align-items: center;
+        justify-content: center
+    }
+    .main .image {
+        order: -1;
+    }
+}
+
+
+.main h2 {
+    font-size: 3rem;
+    font-family: serif;
+    font-weight: normal;
+}
+
+.main h4 {
+    font-size: 1.2rem;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.link1 {
+    display: flex;
+    gap: 40px;
+}
+
+.link1 a {
+    background-color: #FDC800;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+
+a.notActive {
+    background-color: #F0F4F9;
+    border-width: 1px 1px;
+    border-radius: 5px;
+    border-color: #BDBDBD;
+    border-style: solid;
+}
+
+.time {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #002147;
+    color: #fff;
+    border-radius: 5px;
+    position: relative;
+    bottom: 85px;
+    flex-wrap: wrap;
+}
+
+@media (max-width:576px) {
+    .timing div {
+        max-width: 50%;
+        /* min-width: 20%; */
+        font-size: 1rem;
+        
+    }
+    .timeTitle {
+        max-width: 80%;
+    }
+    .timeTitle img {
+        min-width: 20%;
+    }
+    .timeTitle h2 {
+        min-width: 50%;
+    }
+}
+
+.timing {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    gap: 10px;
+}
+
+
+.num {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+h2 span {
+    color: #FDC800;
+}
+
+.name {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.timeTitle {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+main .main .image img {
+    max-width: 100%;
+}
+
+@media (max-width:576px) {
+    main .main .image img {
+        max-width: 100%;
+    }
+    main .main .image {
+        max-width: 80%;
+    }
+
+}

@@ -1,0 +1,22 @@
+@import url(../index/1-header.css);
+@import url(./2-hero.css);
+@import url(./3-cards.css);
+@import url(./4-enterEmail.css);
+@import url(./5-footer.css);
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 10px 0px;
+}
+
+a {
+    text-decoration: none;
+    color: #002147;
+}

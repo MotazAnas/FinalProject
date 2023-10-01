@@ -1,0 +1,21 @@
+main {
+    background-color: #F0F4F9;
+}
+
+.main h5{
+    font-size: 1.1rem;
+    color: #FDC800;
+    margin-top: 30px;
+    position: relative;
+    top: 20px;
+}
+
+.main h1 {
+    font-size: 3rem;
+    color: #002147;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+}

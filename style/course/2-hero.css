@@ -1,0 +1,56 @@
+main {
+    background-color: #F0F4F9;
+}
+
+main h5 {
+    color: #FDC800;
+    font-size: 1.1rem;
+    padding-top: 50px;
+}
+
+main h1 {
+    color: #002147;
+    font-size: 3rem;
+    margin-top: 5px;
+}
+
+.selection {
+    display: flex;
+    justify-content: space-between;
+    color: #002147;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.selection div {
+    display: grid;
+    gap: 5px;
+}
+
+select {
+    border: 1px solid #bdbdbd9c;
+    width: 240px;
+    padding: 5px;
+    border-radius: 3px;
+    color: #002147;
+}
+
+@media (max-width: 576px) {
+    .selection {
+        display: grid;
+        gap: 5px;
+        justify-content: center;
+        }
+}
+
+@media (min-width: 576px) and (max-width: 1200px) {
+    .selection {
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(2,1fr);
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        }
+}

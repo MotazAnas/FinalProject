@@ -1,0 +1,35 @@
+.Description, .WhatLearn{
+    max-width: 750px;
+}
+
+.Description h2 {
+    font-size: 2rem;
+    color: #002147;
+    margin-bottom: 20px;
+}
+
+.WhatLearn h2 {
+    font-size: 2rem;
+    color: #002147;
+    margin: 20px 0;
+}
+
+.WhatLearn div {
+    display: flex;
+    gap: 15px;
+    margin: 20px 0;
+}
+
+.WhatLearn div p span {
+    font-weight: bold;
+}
+
+.WhatLearn div i {
+    color: #00B2B2;
+    font-weight: bold;
+}
+
+.container2 {
+    position: relative;
+    top: -330px;
+}

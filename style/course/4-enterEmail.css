@@ -1,0 +1,53 @@
+.section4 .container {
+    padding: 50px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    align-content: center;
+}
+
+.section4 .container div {
+    display: grid;
+    gap: 15px;
+    position: relative;
+}
+
+.container div i.fa-envelope {
+    position: absolute;
+    top: 16px;
+    left: 10px;
+}
+
+.container div button {
+    position: absolute;
+    right: 5px;
+    top: 7px;
+    border-radius: 3px;
+    background-color: #FDC800;
+    color: #002147;
+    border: none;
+    padding: 10px 20px;    
+}
+
+.container div input {
+    padding: 15px;
+    padding-left: 30px;
+    border-color: #bdbdbd7c;
+    border-style: solid;
+}
+
+.container div input::-webkit-input-placeholder {
+    color: #BDBDBD;
+}
+
+.section4 .container div h2 {
+    color: #002147;
+    font-size: 3rem;
+}
+
+.section4 .container div h5 {
+    color: #FDC800;
+    font-size: 1rem;
+}

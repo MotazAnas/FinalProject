@@ -1,0 +1,145 @@
+section.graduation {
+    display: flex;
+    gap: 25px;
+    padding-top: 100px;
+    position: relative;
+    padding-bottom: 40px;
+}
+
+.graduationTitle {
+    display: grid;
+    gap: 10px;
+}
+@media (max-width : 992px) {
+    section.graduation {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 25px;
+        padding-top: 100px;
+        align-content: center;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    section.graduation .graduationImage img {
+    max-width: 100%;
+    }
+
+    }
+
+.graduationImage {
+    object-fit: cover;
+    object-position: center;
+}
+
+
+.graduationTitle h2 {
+    color: #002147;
+    font-size: 2.5rem;
+    /* margin-bottom: 40px; */
+}
+
+.graduationTitle h2 span{
+    color:#FDC800 ;
+}
+
+.graduationTitle p {
+    color: #212529;
+    font-size: 0.9rem;
+}
+
+.graduationTitle h5 {
+    color: #002147;
+    font-size: 1rem;
+    font-weight: 500;
+    /* margin-top: 80px; */
+}
+
+
+.graduationTitle .imagePosition img {
+    object-fit: cover;
+    object-position: center;
+    width:60px;
+    height: 60px;
+    position: relative;
+    left: 10px;
+}
+
+.graduationTitle .H {
+    display: grid;
+    justify-items: left;
+    background-color: #F0F4F9;
+    padding: 20px;
+    padding-right: 55px;
+    padding-left: 30px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+.graduationTitle .H h6 {
+    color: #757575;
+}
+.graduationTitle .H h4 {
+    color: #002147;
+    font-size: 0.9rem;
+}
+
+
+.imagePosition {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+div.colorPosition {
+    background-color: #FDC800;
+    width:120px;
+    height: 120px;
+    position: absolute;
+    top: 80px;
+    left: -10px;
+    border-radius: 5px;
+}
+
+div.colorPosition img {
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+
+@media (max-width : 576px) {
+    div.colorPosition {
+        width: 60px;
+        height: 60px;
+    }
+    div.colorPosition img {
+        width: 50%;
+    }
+    .graduationImage div {
+        max-width: 90%;
+    }
+}
+
+.graduationImage div {
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    width: 350px;
+    height: 70px;
+    position: relative;
+    bottom: 35px;
+    left: 50%;
+    transform: translate(-50% , 0);
+}
+
+.graduationImage div h3 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+
+.graduationImage div h5 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    color: #757575;
+    font-weight: normal;
+}
+

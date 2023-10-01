@@ -1,0 +1,91 @@
+footer {
+    background-color: #002147;
+    padding-top: 50px ;
+}
+
+.information {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footerLinks {
+    display: flex;
+    gap: 70px;
+}
+
+.footerLinks div {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+.footerLinks div a {
+    color: white;
+}
+
+.footerLogo {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+}
+
+.contactFooter div div {
+    display: flex; 
+    gap: 20px;
+}
+
+.contactFooter {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.EmailAndPhone {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width: 992px) {
+    .contactFooter  {
+        display: none;
+    }
+    .information {
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+}
+
+@media (max-width: 576px ) {
+    .hover div  {
+        display: none;
+    }
+    .footerLinks {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+    .information {
+        align-items: start;
+    }
+    .footerLinks div h3:hover + div {
+        display: grid;
+        position: absolute;
+        top: 5vh;
+        left: 0;
+        background-color: #FDC800;
+        width: 100%;
+        padding: 1rem;
+        text-align: center;
+        justify-content: center;
+        z-index: 9999;
+    }
+} 
+
+
+.hover {
+    position: relative;
+}
+
